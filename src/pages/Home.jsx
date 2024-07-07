@@ -14,13 +14,13 @@ const Home = () => {
           A full-stack developer with a passion for creating beautiful and
           functional web applications.
         </p>
-        <button className="bg-primary text-white font-montserrat bg-slate-400 font-bold text-lg px-4 py-2 mt-4">
+        <button className="bg-primary text-white font-montserrat mt-10 bg-slate-400 font-bold text-lg px-4 py-2 ">
           Contact Me
         </button>
       </div>
       {/* <div className="absolute bg-transparent inset-0 z-10"> */}
       <Spline
-        className="absolute bg-transparent inset-0 z-20"
+        className="absolute bg-transparent inset-0 z-10"
         scene="https://prod.spline.design/ClgmpA82pYuUVvGu/scene.splinecode"
       />
       {/* </div> */}

@@ -31,16 +31,16 @@ const Navbar = ({ toShow }) => {
       ></div> */}
 
       <div
-        className={`w-full fixed flex justify-between  gap-7 z-20 text-sm px-20 text-slate-300 border-b-2  border-slate-300 font-medium font-montserrat  `}
+        className={`w-full fixed flex justify-between backdrop-blur-lg bg-bg bg-opacity-40 gap-7 z-20 text-sm px-20 text-slate-300 border-b-2  border-slate-300 font-medium font-montserrat  `}
       >
         <h1 className="font-black text-base  py-3">SOBIN JOHNSON</h1>
         <div className="flex justify-between gap-7 py-3">
-          <a
+          {/* <a
             className="md:flex hidden"
             onClick={() => handleClickNav("aboutus")}
           >
-            About Us
-          </a>
+            About Me
+          </a> */}
           <a
             onClick={() => handleClickNav("home")}
             className="md:flex hidden  "
@@ -52,13 +52,13 @@ const Navbar = ({ toShow }) => {
             onClick={() => handleClickNav("contactus")}
             className="md:flex hidden"
           >
-            Contact Us
+            Contact Me
           </a>
           <a
-            href="https://linktr.ee/lighthouse_labs"
+            // href="https://linktr.ee/lighthouse_labs"
             className="md:flex hidden"
           >
-            Projects
+            Works
           </a>
         </div>
       </div>

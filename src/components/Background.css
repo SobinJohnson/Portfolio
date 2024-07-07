@@ -1,7 +1,7 @@
 body {
     background-color: #0f0f0f;
     height: 100vh;
-    margin: 0rem;
+    margin: 0;
     overflow: hidden; 
   }
   
@@ -9,28 +9,27 @@ body {
     from {
       rotate: 0deg;
     }
-    
     50% {
-      scale: 1 1.5;
+      scale: 1 1.2;
     }
-    
     to {
       rotate: 360deg;
     }
   }
+  
   
   #blob {
     background-color: white;
     height: 30vmax;
     aspect-ratio: 1;
     position: absolute;
-    left: 50%;
+    left: 30%;
     top: 50%;
     translate: -50% -50%;
     border-radius: 50%;
     background: linear-gradient(to right, aquamarine, mediumpurple);
-    animation: rotate 20s infinite;
-    opacity: 0.6;
+    animation: rotate 15s infinite;
+    opacity: 0.75;
   }
   
   #blur {
@@ -38,5 +37,6 @@ body {
     width: 100%;
     position: absolute;
     z-index: 1;
-    backdrop-filter: blur(10vmax);
+    backdrop-filter: blur(16vmax);
   }
+  

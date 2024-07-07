@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        bg: '#0f0f0f', // Replace with your desired primary color
+        // primary: '#43403C', // Replace with your desired secondary color
+        // accent: '#ED711D',   // Replace with your desired accent color
+        // Add more colors as needed
+      },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
