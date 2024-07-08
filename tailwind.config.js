@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         bg: '#0f0f0f', // Replace with your desired primary color
-        // primary: '#43403C', // Replace with your desired secondary color
+        primary: '#8088CD', // Replace with your desired secondary color
         // accent: '#ED711D',   // Replace with your desired accent color
         // Add more colors as needed
       },
