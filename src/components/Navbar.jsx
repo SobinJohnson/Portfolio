@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./Navbar.css";
 
 const Navbar = ({ toShow }) => {
   const handleClickNav = (scrollTold) => {
@@ -31,36 +32,36 @@ const Navbar = ({ toShow }) => {
       ></div> */}
 
       <div
-        className={`w-full fixed flex justify-between backdrop-blur-lg bg-bg bg-opacity-40 gap-7 z-20 text-sm px-20 text-slate-300 border-b-2  border-slate-300 font-medium font-montserrat  `}
+        className={`w-full fixed flex justify-between backdrop-blur-lg bg-bg bg-opacity-40 gap-7 z-20 text-sm px-20 text-slate-300 border-b-2  border-slate-300 border-opacity-50 font-medium font-montserrat  `}
       >
         <h1 className="font-black text-base  py-3">SOBIN JOHNSON</h1>
-        <div className="flex justify-between gap-7 py-3">
+        <ul className="flex justify-between gap-7 py-3 ">
           {/* <a
             className="md:flex hidden"
             onClick={() => handleClickNav("aboutus")}
           >
             About Me
           </a> */}
-          <a
+          <li
             onClick={() => handleClickNav("home")}
             className="md:flex hidden  "
           >
             Home
-          </a>
+          </li>
           {/* <a className="md:hidden flex border-b-2 border-primary" onClick={(prev)=>(setshowMenu(!prev))}>Menu</a> */}
-          <a
+          <li
             onClick={() => handleClickNav("contactus")}
             className="md:flex hidden"
           >
             Contact Me
-          </a>
-          <a
+          </li>
+          <li
             // href="https://linktr.ee/lighthouse_labs"
             className="md:flex hidden"
           >
             Works
-          </a>
-        </div>
+          </li>
+        </ul>
       </div>
     </>
   );

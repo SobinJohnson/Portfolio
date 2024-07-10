@@ -5,8 +5,8 @@ import Spline from "@splinetool/react-spline";
 const Home = () => {
   return (
     <>
-      <div className=" px-20 h-dvh flex flex-col text-slate-200 justify-center">
-        <div className=" w-full z-10 ">
+      <div className="  h-dvh flex flex-col  w-1/2 text-slate-200 justify-center">
+        <div className="pl-20 py-10 pb-14 w-full z-10 hero">
           <h1 className=" font-montserrat text-9xl font-black">Hi!</h1>
           <h1 className=" font-montserrat text-5xl font-black pt-4">
             I am Sobin Johnson

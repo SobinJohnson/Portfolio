@@ -9,8 +9,9 @@ const BlobComponent = () => {
         src={bgImg}
         className="h-3/4 top-1/4 bg-blend-screen object-cover absolute -z-20 inset-0"
       ></img> */}
-      <div id="blob" className="-z-10"></div>
+      <div id="blob1" className="-z-10"></div>
       <div id="blur" className="z-0"></div>
+      <div id="blob2" className="-z-10"></div>
     </div>
   );
 };
